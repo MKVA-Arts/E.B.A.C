@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante a compatibilidade com o IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para dispositivos móveis -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pré-conexão para melhorar o carregamento das fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Pré-conexão para melhorar o carregamento das fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Condensed&display=swap" rel="stylesheet"> <!-- Link para as fontes do Google Fonts -->
+    
+    <title>Loja de Velas Aromáticas</title> <!-- Título da página -->
+</head>
+<body> 
+    <header>
+        <div class="container"> <!-- Container para centralizar o conteúdo -->
+            <h1>LP Saboaria - Velas Aromáticas</h1> <!-- Título principal da página -->
+            <nav> <!-- Navegação principal da página -->
+                <ul>
+                    <li><a href="#about">Sobre Nós</a></li> <!-- Link para a seção "Sobre Nós" -->
+                    <li><a href="#products">Nossos Produtos</a></li> <!-- Link para a seção "Nossos Produtos" -->
+                    <li><a href="#contact">Contato</a></li> <!-- Link para a seção "Contato" -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2> <!-- Título da seção "Sobre Nós" -->
+            <p>Bem-vindo à nossa loja de velas aromáticas! Oferecemos uma variedade única de velas feitas à mão, utilizando os melhores ingredientes naturais para proporcionar uma experiência sensorial inesquecível.</p> <!-- Descrição da loja -->
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2> <!-- Título da seção "Nossos Produtos" -->
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="Images/vela-lavanda.jpg" alt="Vela de Lavanda"> <!-- Imagem da vela de lavanda -->
+                    <h3>Vela de Lavanda</h3> <!-- Nome do produto -->
+                    <p>Calmante e relaxante, ideal para momentos de meditação e descanso.</p> <!-- Descrição do produto -->
+                </div>
+                <div class="product-item">
+                    <img src="Images/vela-baunilha.jpg" alt="Vela de Baunilha"> <!-- Imagem da vela de baunilha -->
+                    <h3>Vela de Baunilha</h3> <!-- Nome do produto -->
+                    <p>Doce e aconchegante, perfeita para criar um ambiente acolhedor.</p> <!-- Descrição do produto -->
+                </div>
+                <div class="product-item">
+                    <img src="Images/vela-rosa.jpg" alt="Vela de Rosa"> <!-- Imagem da vela de rosa -->
+                    <h3>Vela de Rosa</h3> <!-- Nome do produto -->
+                    <p>Romântica e delicada, ótima para jantares à luz de velas.</p> <!-- Descrição do produto -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="content">
+            <h2>Contato</h2> <!-- Título da seção "Contato" -->
+            <form>
+                <input type="text" placeholder="Nome" required/> <!-- Campo de entrada para o nome -->
+                <input type="email" placeholder="Email" required/> <!-- Campo de entrada para o email -->
+                <textarea placeholder="Digite sua mensagem" required></textarea> <!-- Campo de texto para a mensagem -->
+                <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Loja de Velas Aromáticas. Todos os direitos reservados.</p> <!-- Texto do rodapé -->
+        </div>
+    </footer>
+</body>
+</html>
